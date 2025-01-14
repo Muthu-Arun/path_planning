@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/arun/rover/path_planning/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4  -o CMakeFiles/main.dir/source/main.cpp.o -c /home/arun/rover/path_planning/source/main.cpp",
+  "file": "/home/arun/rover/path_planning/source/main.cpp",
+  "output": "CMakeFiles/main.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/arun/rover/path_planning/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/opencv4  -o CMakeFiles/main.dir/source/lane_detection.cpp.o -c /home/arun/rover/path_planning/source/lane_detection.cpp",
+  "file": "/home/arun/rover/path_planning/source/lane_detection.cpp",
+  "output": "CMakeFiles/main.dir/source/lane_detection.cpp.o"
+}
+]

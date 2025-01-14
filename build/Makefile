@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+source/lane_detection.o: source/lane_detection.cpp.o
+.PHONY : source/lane_detection.o
+
+# target to build an object file
+source/lane_detection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lane_detection.cpp.o
+.PHONY : source/lane_detection.cpp.o
+
+source/lane_detection.i: source/lane_detection.cpp.i
+.PHONY : source/lane_detection.i
+
+# target to preprocess a source file
+source/lane_detection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lane_detection.cpp.i
+.PHONY : source/lane_detection.cpp.i
+
+source/lane_detection.s: source/lane_detection.cpp.s
+.PHONY : source/lane_detection.s
+
+# target to generate assembly for a file
+source/lane_detection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lane_detection.cpp.s
+.PHONY : source/lane_detection.cpp.s
+
 source/main.o: source/main.cpp.o
 .PHONY : source/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... source/lane_detection.o"
+	@echo "... source/lane_detection.i"
+	@echo "... source/lane_detection.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
