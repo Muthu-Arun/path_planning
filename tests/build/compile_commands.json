@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/arun/rover/path_planning/tests/build",
+  "command": "/usr/bin/c++  -I/home/arun/rover/path_planning/tests/src -isystem /usr/local/include/opencv4  -o CMakeFiles/test.dir/src/video_lane_detection.cpp.o -c /home/arun/rover/path_planning/tests/src/video_lane_detection.cpp",
+  "file": "/home/arun/rover/path_planning/tests/src/video_lane_detection.cpp",
+  "output": "CMakeFiles/test.dir/src/video_lane_detection.cpp.o"
+}
+]

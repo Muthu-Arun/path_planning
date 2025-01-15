@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include/opencv4
+CXX_INCLUDES = -I/home/arun/rover/path_planning/source -isystem /usr/local/include/opencv4
 
 CXX_FLAGS = 
 

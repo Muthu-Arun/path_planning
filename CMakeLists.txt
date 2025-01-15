@@ -6,8 +6,10 @@ find_package(OpenCV REQUIRED)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Include OpenCV headers
-include_directories(${OpenCV_INCLUDE_DIRS})
-
+include_directories(
+	${OpenCV_INCLUDE_DIRS}
+	${CMAKE_SOURCE_DIR}/source
+)
 # Add executable
 add_executable(main 
 	./source/main.cpp

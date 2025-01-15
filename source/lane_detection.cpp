@@ -37,7 +37,7 @@ void detectLane(cv::Mat frame) {
     for (size_t i = 0; i < lines.size(); i++) {
         Vec4i l = lines[i];
         line(frame, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0, 255, 0), 3, LINE_AA);
-    }
+    }/*
     double scaleFactor = 0.5; // Resize to 50% of the original size
     cv::resize(frame, resized_frame, cv::Size(), scaleFactor, scaleFactor, cv::INTER_LINEAR);
 
@@ -48,5 +48,7 @@ void detectLane(cv::Mat frame) {
 
     cv::waitKey();
 
+    */
+    imshow("Lane Detection",frame);
 }
 
